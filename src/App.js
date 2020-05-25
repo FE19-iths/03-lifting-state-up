@@ -12,11 +12,11 @@ function App() {
         <header className="App-header">
             <h1>
                 Demo
-                <Login
-                    isLoggedIn={isLoggedIn}
-                    doLogIn={() => setIsLoggedIn(true)}
-                    doLogOut={() => setIsLoggedIn(false)} />
             </h1>
+            <Login
+                isLoggedIn={isLoggedIn}
+                doLogIn={() => setIsLoggedIn(true)}
+                doLogOut={() => setIsLoggedIn(false)} />
         </header>
         <main>
             <Bordered>
